@@ -19,6 +19,7 @@ export class Item {
   sectionID: number;
   tooltip?: string;
   metadata?: any;
+  allocation?: number;
 }
 
 export class Section {
