@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "outDir": "../../out-tsc/lib",
@@ -26,7 +26,6 @@
     "enableResourceInlining": true
   },
   "exclude": [
-    "src/test.ts",
     "**/*.spec.ts"
   ]
 }
