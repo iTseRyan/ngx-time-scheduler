@@ -22,6 +22,7 @@ export declare class Section {
     id: number;
     name: string;
     tooltip?: string;
+    userId?: string;
 }
 export declare class Text {
     NextButton: string;
