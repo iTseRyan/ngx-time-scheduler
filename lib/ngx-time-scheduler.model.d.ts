@@ -9,7 +9,7 @@ export declare class Period {
     tooltip?: string;
 }
 export declare class Item {
-    id: number;
+    id: string;
     name: string;
     start: moment.Moment;
     end: moment.Moment;
@@ -21,7 +21,7 @@ export declare class Item {
     allocationUuid?: string;
 }
 export declare class Section {
-    id: number;
+    id: string;
     name: string;
     tooltip?: string;
     userUuid?: string;
