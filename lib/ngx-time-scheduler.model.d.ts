@@ -17,12 +17,15 @@ export declare class Item {
     sectionID: number;
     tooltip?: string;
     allocation?: number;
+    userUuid?: string;
+    allocationUuid?: string;
 }
 export declare class Section {
     id: number;
     name: string;
     tooltip?: string;
-    userId?: string;
+    userUuid?: string;
+    allocationUuid?: string;
 }
 export declare class Text {
     NextButton: string;
